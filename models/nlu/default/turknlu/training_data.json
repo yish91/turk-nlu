@@ -1,0 +1,304 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "Greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "BookAppointment",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "appointment",
+            "entity": "Appointment"
+          },
+          {
+            "start": 24,
+            "end": 35,
+            "value": "appointment",
+            "entity": ""
+          }
+        ],
+        "text": "i would like to book an appointment"
+      },
+      {
+        "intent": "BookAppointment",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "appointment",
+            "entity": "Appointment"
+          }
+        ],
+        "text": "make an appointment"
+      },
+      {
+        "intent": "BookAppointment",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "appointment",
+            "entity": "Appointment"
+          }
+        ],
+        "text": "modify appointment"
+      },
+      {
+        "intent": "CancelAppointment",
+        "entities": [
+          {
+            "start": 26,
+            "end": 37,
+            "value": "appointment",
+            "entity": "Appointment"
+          }
+        ],
+        "text": "I would like to cancel my appointment"
+      },
+      {
+        "intent": "ClaimStatus",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "claim status",
+            "entity": "Claim"
+          },
+          {
+            "start": 10,
+            "end": 22,
+            "value": "claim status",
+            "entity": ""
+          }
+        ],
+        "text": "What's my claim status?"
+      },
+      {
+        "intent": "ClaimStatus",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "claim status",
+            "entity": "Claim"
+          }
+        ],
+        "text": "Check my claim status"
+      },
+      {
+        "intent": "PaidClaim",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "claim",
+            "entity": "Claim"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "paid ",
+            "entity": "ClaimStatus"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "paid ",
+            "entity": ""
+          }
+        ],
+        "text": "How much was paid for my claim"
+      },
+      {
+        "intent": "PaidClaim",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "billed ",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "how much was billed "
+      },
+      {
+        "intent": "PaidClaim",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "reimbursed",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "how much was reimbursed"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "paid",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "how was it paid?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "approved",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "how was it approved?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "rejected",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "how was it rejected?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "returned",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "how was it returned?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "paid",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "why was it paid?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "rejected",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "why was it rejected?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "approved",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "why was it approved?"
+      },
+      {
+        "intent": "ReasonClaim",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "returned",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "why was it returned?"
+      },
+      {
+        "intent": "WhenClaim",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "paid",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "When was it paid?"
+      },
+      {
+        "intent": "WhenClaim",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "approved",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "When was it approved?"
+      },
+      {
+        "intent": "WhenClaim",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "rejected",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "When was it rejected?"
+      },
+      {
+        "intent": "WhenClaim",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "returned",
+            "entity": "ClaimStatus"
+          }
+        ],
+        "text": "When was it returned?"
+      },
+      {
+        "intent": "CancelAppointment",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "appointment",
+            "entity": "Appointment"
+          }
+        ],
+        "text": "cancel appointment"
+      },
+      {
+        "intent": "Greet",
+        "text": "Hi"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
